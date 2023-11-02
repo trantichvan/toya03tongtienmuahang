@@ -33,7 +33,7 @@ tongtienmuahang(None)                   | None
 def tongtienmuahang(gia_truoc_thue):
   if gia_truoc_thue is not None:
     gia_truoc_thue = gia_truoc_thue*1.1
-    return gia_truoc_thue
+    return int(gia_truoc_thue)
   elif gia_truoc_thue is None:
     return None
 
